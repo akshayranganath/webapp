@@ -10,6 +10,7 @@
 
   <!-- I keep getting a source encoding warning.. Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!-->
   <!-- fixing it based on the suggestion https://stackoverflow.com/questions/24144073/why-does-maven-warn-me-about-encoding-->
+  <!-- Make sure the folder structure is as per this document: https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html -->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
